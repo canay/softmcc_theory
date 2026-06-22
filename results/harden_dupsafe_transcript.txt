@@ -1,0 +1,132 @@
+[2026-06-22T03:09:17+03:00] Duplicate-safe harden pipeline started
+[2026-06-22T03:09:17+03:00] Command: C:\Users\root\miniforge3\python.exe C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\scripts\harden_dupsafe_full.py --force
+[2026-06-22T03:09:17+03:00] CWD: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory
+[2026-06-22T03:09:17+03:00] Python: 3.12.12 on Windows-11-10.0.26200-SP0
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_utility.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_rankings.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_calibration.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_calibration_diagnostics.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_split_manifest.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_dataset_manifest.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_environment.json
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_stability.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_selection.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_calibration.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_friedman.txt
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_evidence_reconciliation.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_artifact_manifest.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig1_resampling_stability_dupsafe.png
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig2_calibration_sensitivity_dupsafe.png
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig3_critical_difference_dupsafe.png
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\tables\table_main_results_dupsafe.tex
+[2026-06-22T03:09:17+03:00] Dataset breast_cancer(37%): rows=569 groups=569 duplicate_rows=0 prevalence=0.372583
+[2026-06-22T03:09:31+03:00] breast_cancer(37%) repeat 1/12 complete
+[2026-06-22T03:10:00+03:00] breast_cancer(37%) repeat 2/12 complete
+[2026-06-22T03:10:17+03:00] breast_cancer(37%) repeat 3/12 complete
+[2026-06-22T03:10:31+03:00] breast_cancer(37%) repeat 4/12 complete
+[2026-06-22T03:10:57+03:00] breast_cancer(37%) repeat 5/12 complete
+[2026-06-22T03:12:02+03:00] breast_cancer(37%) repeat 6/12 complete
+[2026-06-22T03:12:21+03:00] breast_cancer(37%) repeat 7/12 complete
+[2026-06-22T03:12:40+03:00] breast_cancer(37%) repeat 8/12 complete
+[2026-06-22T03:12:53+03:00] breast_cancer(37%) repeat 9/12 complete
+[2026-06-22T03:13:01+03:00] breast_cancer(37%) repeat 10/12 complete
+[2026-06-22T03:13:09+03:00] breast_cancer(37%) repeat 11/12 complete
+[2026-06-22T03:13:17+03:00] breast_cancer(37%) repeat 12/12 complete
+[2026-06-22T03:13:17+03:00] Checkpoint saved after dataset breast_cancer(37%)
+[2026-06-22T03:13:17+03:00] Dataset synth(5%): rows=4000 groups=4000 duplicate_rows=0 prevalence=0.055250
+[2026-06-22T03:13:37+03:00] synth(5%) repeat 1/12 complete
+[2026-06-22T03:13:55+03:00] synth(5%) repeat 2/12 complete
+[2026-06-22T03:14:16+03:00] synth(5%) repeat 3/12 complete
+[2026-06-22T03:14:40+03:00] synth(5%) repeat 4/12 complete
+[2026-06-22T03:15:02+03:00] synth(5%) repeat 5/12 complete
+[2026-06-22T03:15:22+03:00] synth(5%) repeat 6/12 complete
+[2026-06-22T03:15:43+03:00] synth(5%) repeat 7/12 complete
+[2026-06-22T03:16:04+03:00] synth(5%) repeat 8/12 complete
+[2026-06-22T03:16:23+03:00] synth(5%) repeat 9/12 complete
+[2026-06-22T03:16:58+03:00] synth(5%) repeat 10/12 complete
+[2026-06-22T03:17:18+03:00] synth(5%) repeat 11/12 complete
+[2026-06-22T03:17:44+03:00] synth(5%) repeat 12/12 complete
+[2026-06-22T03:17:44+03:00] Checkpoint saved after dataset synth(5%)
+[2026-06-22T03:17:44+03:00] Dataset synth(1%): rows=4000 groups=4000 duplicate_rows=0 prevalence=0.013000
+[2026-06-22T03:18:05+03:00] synth(1%) repeat 1/12 complete
+[2026-06-22T03:18:17+03:00] synth(1%) repeat 2/12 complete
+[2026-06-22T03:18:30+03:00] synth(1%) repeat 3/12 complete
+[2026-06-22T03:18:45+03:00] synth(1%) repeat 4/12 complete
+[2026-06-22T03:18:57+03:00] synth(1%) repeat 5/12 complete
+[2026-06-22T03:19:05+03:00] synth(1%) repeat 6/12 complete
+[2026-06-22T03:19:16+03:00] synth(1%) repeat 7/12 complete
+[2026-06-22T03:19:30+03:00] synth(1%) repeat 8/12 complete
+[2026-06-22T03:19:55+03:00] synth(1%) repeat 9/12 complete
+[2026-06-22T03:20:18+03:00] synth(1%) repeat 10/12 complete
+[2026-06-22T03:20:39+03:00] synth(1%) repeat 11/12 complete
+[2026-06-22T03:20:59+03:00] synth(1%) repeat 12/12 complete
+[2026-06-22T03:20:59+03:00] Checkpoint saved after dataset synth(1%)
+[2026-06-22T03:20:59+03:00] Dataset creditcard(1%): rows=49200 groups=48631 duplicate_rows=569 prevalence=0.010000
+[2026-06-22T03:21:49+03:00] creditcard(1%) repeat 1/12 complete
+[2026-06-22T03:22:18+03:00] creditcard(1%) repeat 2/12 complete
+[2026-06-22T03:22:49+03:00] creditcard(1%) repeat 3/12 complete
+[2026-06-22T03:23:05+03:00] creditcard(1%) repeat 4/12 complete
+[2026-06-22T03:23:25+03:00] creditcard(1%) repeat 5/12 complete
+[2026-06-22T03:24:03+03:00] creditcard(1%) repeat 6/12 complete
+[2026-06-22T03:24:24+03:00] creditcard(1%) repeat 7/12 complete
+[2026-06-22T03:24:49+03:00] creditcard(1%) repeat 8/12 complete
+[2026-06-22T03:25:11+03:00] creditcard(1%) repeat 9/12 complete
+[2026-06-22T03:25:44+03:00] creditcard(1%) repeat 10/12 complete
+[2026-06-22T03:26:03+03:00] creditcard(1%) repeat 11/12 complete
+[2026-06-22T03:26:19+03:00] creditcard(1%) repeat 12/12 complete
+[2026-06-22T03:26:19+03:00] Checkpoint saved after dataset creditcard(1%)
+[2026-06-22T03:26:20+03:00] Dataset creditcard(0.5%): rows=98400 groups=96700 duplicate_rows=1700 prevalence=0.005000
+[2026-06-22T03:26:42+03:00] creditcard(0.5%) repeat 1/12 complete
+[2026-06-22T03:26:59+03:00] creditcard(0.5%) repeat 2/12 complete
+[2026-06-22T03:27:28+03:00] creditcard(0.5%) repeat 3/12 complete
+[2026-06-22T03:27:48+03:00] creditcard(0.5%) repeat 4/12 complete
+[2026-06-22T03:28:03+03:00] creditcard(0.5%) repeat 5/12 complete
+[2026-06-22T03:28:19+03:00] creditcard(0.5%) repeat 6/12 complete
+[2026-06-22T03:28:35+03:00] creditcard(0.5%) repeat 7/12 complete
+[2026-06-22T03:28:55+03:00] creditcard(0.5%) repeat 8/12 complete
+[2026-06-22T03:29:15+03:00] creditcard(0.5%) repeat 9/12 complete
+[2026-06-22T03:29:31+03:00] creditcard(0.5%) repeat 10/12 complete
+[2026-06-22T03:29:48+03:00] creditcard(0.5%) repeat 11/12 complete
+[2026-06-22T03:30:04+03:00] creditcard(0.5%) repeat 12/12 complete
+[2026-06-22T03:30:04+03:00] Checkpoint saved after dataset creditcard(0.5%)
+[2026-06-22T03:30:05+03:00] Dataset iotid20(6.4%): rows=40000 groups=28285 duplicate_rows=11715 prevalence=0.064025
+[2026-06-22T03:30:30+03:00] iotid20(6.4%) repeat 1/12 complete
+[2026-06-22T03:30:47+03:00] iotid20(6.4%) repeat 2/12 complete
+[2026-06-22T03:31:07+03:00] iotid20(6.4%) repeat 3/12 complete
+[2026-06-22T03:31:24+03:00] iotid20(6.4%) repeat 4/12 complete
+[2026-06-22T03:31:45+03:00] iotid20(6.4%) repeat 5/12 complete
+[2026-06-22T03:32:03+03:00] iotid20(6.4%) repeat 6/12 complete
+[2026-06-22T03:32:21+03:00] iotid20(6.4%) repeat 7/12 complete
+[2026-06-22T03:32:39+03:00] iotid20(6.4%) repeat 8/12 complete
+[2026-06-22T03:33:01+03:00] iotid20(6.4%) repeat 9/12 complete
+[2026-06-22T03:33:21+03:00] iotid20(6.4%) repeat 10/12 complete
+[2026-06-22T03:33:37+03:00] iotid20(6.4%) repeat 11/12 complete
+[2026-06-22T03:34:00+03:00] iotid20(6.4%) repeat 12/12 complete
+[2026-06-22T03:34:00+03:00] Checkpoint saved after dataset iotid20(6.4%)
+[2026-06-22T03:34:10+03:00] [stability (Kendall's W)] Friedman chi2=7.433 p=0.2827  (k=7, N=6); Nemenyi CD(0.05)=3.678
+[2026-06-22T03:34:10+03:00]     SoftMCC   mean rank 2.500
+[2026-06-22T03:34:10+03:00]     Brier     mean rank 3.167
+[2026-06-22T03:34:10+03:00]     F1@best   mean rank 3.750
+[2026-06-22T03:34:10+03:00]     MCC@best  mean rank 4.083
+[2026-06-22T03:34:10+03:00]     AUPRC     mean rank 4.500
+[2026-06-22T03:34:10+03:00]     MCC@0.5   mean rank 4.500
+[2026-06-22T03:34:10+03:00]     AUROC     mean rank 5.500
+[2026-06-22T03:34:10+03:00] [selection (mean test MCC)] Friedman chi2=5.927 p=0.4314  (k=7, N=6); Nemenyi CD(0.05)=3.678
+[2026-06-22T03:34:10+03:00]     MCC@best  mean rank 3.000
+[2026-06-22T03:34:10+03:00]     F1@best   mean rank 3.333
+[2026-06-22T03:34:10+03:00]     AUPRC     mean rank 3.417
+[2026-06-22T03:34:10+03:00]     SoftMCC   mean rank 3.667
+[2026-06-22T03:34:10+03:00]     Brier     mean rank 4.417
+[2026-06-22T03:34:10+03:00]     MCC@0.5   mean rank 4.833
+[2026-06-22T03:34:10+03:00]     AUROC     mean rank 5.333
+[2026-06-22T03:34:12+03:00] Saved duplicate-safe figures and table source: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig1_resampling_stability_dupsafe.png, C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig2_calibration_sensitivity_dupsafe.png, C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig3_critical_difference_dupsafe.png, C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\tables\table_main_results_dupsafe.tex
+[2026-06-22T03:34:12+03:00] Saved old-vs-duplicate-safe reconciliation: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_evidence_reconciliation.csv
+[2026-06-22T03:34:12+03:00] VERIFY utility_rows: PASS
+[2026-06-22T03:34:12+03:00] VERIFY ranking_rows: PASS
+[2026-06-22T03:34:12+03:00] VERIFY calibration_rows: PASS
+[2026-06-22T03:34:12+03:00] VERIFY split_rows: PASS
+[2026-06-22T03:34:12+03:00] VERIFY train_validation_group_overlap_zero: PASS
+[2026-06-22T03:34:12+03:00] VERIFY train_test_group_overlap_zero: PASS
+[2026-06-22T03:34:12+03:00] VERIFY validation_test_group_overlap_zero: PASS
+[2026-06-22T03:34:13+03:00] Saved artifact manifest excluding live transcript self-hash: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_artifact_manifest.csv
+[2026-06-22T03:34:13+03:00] Duplicate-safe harden pipeline finished exit_code=0 elapsed_seconds=1495.85

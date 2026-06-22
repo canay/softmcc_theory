@@ -1,0 +1,22 @@
+\begin{center}
+\refstepcounter{table}\label{tab:main}
+\parbox{\linewidth}{\small\textbf{Table~\thetable:} The duplicate-safe six-dataset threshold-free selection protocol over twelve repeats reports ranking stability, selected-model test MCC, and calibration-shift agreement.}
+\smallskip
+\small
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{Stability (Kendall's $W$)} & Selection & Calibration\\
+\cmidrule(lr){2-3}
+Metric & Benchmark & Real & Test MCC & Spearman\\
+\midrule
+SoftMCC      & \textbf{0.711} & \textbf{0.764} & 0.659 & 0.838\\
+Brier         & 0.515 & 0.740 & 0.663 & 0.816\\
+MCC@0.5       & 0.443 & 0.720 & 0.650 & 1.000\\
+AUROC         & 0.468 & 0.523 & 0.660 & 1.000\\
+AUPRC         & 0.479 & 0.566 & 0.665 & 1.000\\
+$F_1$@best    & 0.569 & 0.503 & 0.661 & 1.000\\
+MCC@best      & 0.530 & 0.525 & 0.662 & 1.000\\
+\bottomrule
+\end{tabular}
+\end{center}

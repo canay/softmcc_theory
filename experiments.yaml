@@ -1,0 +1,62 @@
+protocol:
+  split_method: exact_feature_label_grouped_stratified
+  splits:
+    test: 0.25
+    validation_of_train: 0.30
+  repeats: 12
+  seed_base: 42
+  calibration:
+    method: isotonic
+    cv: 2
+    applied_on: train_only
+  common_operating_point: validation MCC-optimal threshold of the selected model
+candidate_pool:
+  - family: logistic_regression
+    C: [0.1, 1.0, 10.0]
+    class_weight: balanced
+    solver: liblinear
+  - family: hist_gradient_boosting
+    max_depth: [3, 6]
+    learning_rate: 0.1
+    max_iter: 150
+metrics: [SoftMCC, MCC_best, F1_best, AUPRC, AUROC, Brier_neg, MCC_05]
+calibration_stress:
+  temperatures: [0.5, 1.5, 2.0, 3.0]
+datasets:
+  - name: breast_cancer
+    source: sklearn.datasets.load_breast_cancer
+    positive_class: malignant
+    prevalence: 0.372583
+  - name: synth_5
+    source: sklearn.datasets.make_classification
+    prevalence: 0.05525
+    n: 4000
+    seed: 1
+  - name: synth_1
+    source: sklearn.datasets.make_classification
+    prevalence: 0.013
+    n: 4000
+    seed: 2
+  - name: creditcard_pi10
+    source: Kaggle Credit Card Fraud Detection
+    prevalence: 0.01
+    note: imbalance-preserving cache via code/real_prep.py
+  - name: creditcard_pi5
+    source: Kaggle Credit Card Fraud Detection
+    prevalence: 0.005
+    note: imbalance-preserving cache via code/real_prep.py
+  - name: iotid20
+    source: IoTID20 IoT intrusion dataset
+    prevalence: 0.064025
+    note: minority normal class as positive
+statistics:
+  bootstrap:
+    method: BCa
+    B: 2000
+    alpha: 0.05
+  tests: [wilcoxon_signed_rank, cliffs_delta, friedman, nemenyi_cd]
+outputs:
+  prefix: harden_dupsafe
+  include_transcript: true
+  include_split_manifest: true
+  include_artifact_manifest: true
