@@ -1,24 +1,24 @@
 [2026-06-22T03:09:17+03:00] Duplicate-safe harden pipeline started
-[2026-06-22T03:09:17+03:00] Command: C:\Users\root\miniforge3\python.exe C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\scripts\harden_dupsafe_full.py --force
-[2026-06-22T03:09:17+03:00] CWD: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory
+[2026-06-22T03:09:17+03:00] Command: C:\Users\root\miniforge3\python.exe C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\scripts\harden_dupsafe_full.py --force
+[2026-06-22T03:09:17+03:00] CWD: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory
 [2026-06-22T03:09:17+03:00] Python: 3.12.12 on Windows-11-10.0.26200-SP0
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_utility.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_rankings.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_calibration.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_calibration_diagnostics.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_split_manifest.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_dataset_manifest.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_environment.json
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_stability.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_selection.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_calibration.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_friedman.txt
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_evidence_reconciliation.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_artifact_manifest.csv
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig1_resampling_stability_dupsafe.png
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig2_calibration_sensitivity_dupsafe.png
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig3_critical_difference_dupsafe.png
-[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\tables\table_main_results_dupsafe.tex
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_utility.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_rankings.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_calibration.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_calibration_diagnostics.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_split_manifest.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_dataset_manifest.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_environment.json
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_stability.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_selection.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_summary_calibration.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_friedman.txt
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_evidence_reconciliation.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_artifact_manifest.csv
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig1_resampling_stability_dupsafe.png
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig2_calibration_sensitivity_dupsafe.png
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig3_critical_difference_dupsafe.png
+[2026-06-22T03:09:17+03:00] Removing previous harden_dupsafe output before rerun: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\tables\table_main_results_dupsafe.tex
 [2026-06-22T03:09:17+03:00] Dataset breast_cancer(37%): rows=569 groups=569 duplicate_rows=0 prevalence=0.372583
 [2026-06-22T03:09:31+03:00] breast_cancer(37%) repeat 1/12 complete
 [2026-06-22T03:10:00+03:00] breast_cancer(37%) repeat 2/12 complete
@@ -119,8 +119,8 @@
 [2026-06-22T03:34:10+03:00]     Brier     mean rank 4.417
 [2026-06-22T03:34:10+03:00]     MCC@0.5   mean rank 4.833
 [2026-06-22T03:34:10+03:00]     AUROC     mean rank 5.333
-[2026-06-22T03:34:12+03:00] Saved duplicate-safe figures and table source: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig1_resampling_stability_dupsafe.png, C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig2_calibration_sensitivity_dupsafe.png, C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig3_critical_difference_dupsafe.png, C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\tables\table_main_results_dupsafe.tex
-[2026-06-22T03:34:12+03:00] Saved old-vs-duplicate-safe reconciliation: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_evidence_reconciliation.csv
+[2026-06-22T03:34:12+03:00] Saved duplicate-safe figures and table source: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig1_resampling_stability_dupsafe.png, C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig2_calibration_sensitivity_dupsafe.png, C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\figs\fig3_critical_difference_dupsafe.png, C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\04_manuscript\tables\table_main_results_dupsafe.tex
+[2026-06-22T03:34:12+03:00] Saved old-vs-duplicate-safe reconciliation: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_evidence_reconciliation.csv
 [2026-06-22T03:34:12+03:00] VERIFY utility_rows: PASS
 [2026-06-22T03:34:12+03:00] VERIFY ranking_rows: PASS
 [2026-06-22T03:34:12+03:00] VERIFY calibration_rows: PASS
@@ -128,5 +128,5 @@
 [2026-06-22T03:34:12+03:00] VERIFY train_validation_group_overlap_zero: PASS
 [2026-06-22T03:34:12+03:00] VERIFY train_test_group_overlap_zero: PASS
 [2026-06-22T03:34:12+03:00] VERIFY validation_test_group_overlap_zero: PASS
-[2026-06-22T03:34:13+03:00] Saved artifact manifest excluding live transcript self-hash: C:\DOCS\AKADEMIK\FAALIYETLER\YAYIN_PIPELINE\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_artifact_manifest.csv
+[2026-06-22T03:34:13+03:00] Saved artifact manifest excluding live transcript self-hash: C:\DOCS\AKADEMIK\CALISMALAR\20_TASLAK_CALISMALAR\SCI-SoftMCC_Theory\03_experiments\results\harden_dupsafe_artifact_manifest.csv
 [2026-06-22T03:34:13+03:00] Duplicate-safe harden pipeline finished exit_code=0 elapsed_seconds=1495.85

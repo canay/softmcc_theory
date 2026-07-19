@@ -45,8 +45,30 @@ from sklearn.model_selection import train_test_split
 
 warnings.filterwarnings("ignore")
 
+def find_project_root(start: Path) -> Path:
+    configured = os.environ.get("SOFTMCC_PROJECT_ROOT")
+    if configured:
+        candidate = Path(configured).expanduser().resolve()
+        if (candidate / "02_data").is_dir():
+            return candidate
+        raise RuntimeError(
+            "SOFTMCC_PROJECT_ROOT must contain an existing 02_data directory"
+        )
+    for candidate in [start, *start.parents]:
+        is_project = (candidate / "02_data").is_dir() and (
+            (candidate / "04_manuscript").is_dir()
+            or ((candidate / "code").is_dir() and (candidate / "results").is_dir())
+        )
+        if is_project:
+            return candidate
+    raise RuntimeError(
+        "Could not locate a project/package root with 02_data; set "
+        "SOFTMCC_PROJECT_ROOT explicitly"
+    )
+
+
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parents[1]
+ROOT = find_project_root(HERE)
 RESULTS = ROOT / "03_experiments" / "results"
 FIGS = ROOT / "04_manuscript" / "figs"
 TABLES = ROOT / "04_manuscript" / "tables"

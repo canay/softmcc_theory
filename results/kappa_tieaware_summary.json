@@ -1,0 +1,48 @@
+{
+  "ranking_policy": "midranks_with_standard_tie_corrected_kendalls_w",
+  "permutation_design": {
+    "seed_base": 20260718,
+    "permutation_count": 200,
+    "block_seed_sequence": "SeedSequence([seed_base, permutation_index, dataset_index, repeat])"
+  },
+  "observed": {
+    "SoftMCC_W_all6": 0.7372685185185186,
+    "kappa_only_W_all6": 0.6537037037037038,
+    "rho_only_W_all6": 0.6858796296296297,
+    "mean_spearman_soft_vs_kappa": 0.8222222222222221,
+    "mean_spearman_soft_vs_rho": 0.8611111111111109,
+    "max_abs_dataset_test_mcc_gap_soft_vs_kappa": 0.007251700435598973
+  },
+  "permutation_distribution": {
+    "all6": {
+      "observed_softmcc_w": 0.7372685185185186,
+      "permutation_count": 200,
+      "permuted_w_mean": 0.09797685185185184,
+      "permuted_w_sd": 0.03193470930888536,
+      "permuted_w_q025": 0.04766203703703704,
+      "permuted_w_median": 0.09560185185185185,
+      "permuted_w_q975": 0.16739583333333333,
+      "exceedance_fraction": 0.004975124378109453
+    },
+    "benchmark": {
+      "observed_softmcc_w": 0.710648148148148,
+      "permutation_count": 200,
+      "permuted_w_mean": 0.08847685185185185,
+      "permuted_w_sd": 0.04418596098898812,
+      "permuted_w_q025": 0.024907407407407406,
+      "permuted_w_median": 0.08125,
+      "permuted_w_q975": 0.18228009259259267,
+      "exceedance_fraction": 0.004975124378109453
+    },
+    "real": {
+      "observed_softmcc_w": 0.7638888888888888,
+      "permutation_count": 200,
+      "permuted_w_mean": 0.10747685185185187,
+      "permuted_w_sd": 0.052021482910655156,
+      "permuted_w_q025": 0.03190972222222223,
+      "permuted_w_median": 0.09791666666666668,
+      "permuted_w_q975": 0.21113425925925927,
+      "exceedance_fraction": 0.004975124378109453
+    }
+  }
+}

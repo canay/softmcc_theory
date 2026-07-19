@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-07-18_codex_local_unknown_tieaware_harden_control",
+  "status": "canonical_completed",
+  "operation_id": "REV-20260718-CODEX-ROUND-B-IMPL",
+  "tool": "Codex",
+  "model": "GPT-5",
+  "purpose": "Approved AR2-20/AR2-21 tie-aware evidence remediation without overwriting the prior canonical run",
+  "evidence_folder": "experiments/2026-07-18_codex_local_unknown_tieaware_harden_control/evidence",
+  "ranking_policy": {
+    "selection": "fixed candidate declaration order only for exact score ties",
+    "stability": "average ranks from archived candidate scores with standard tie-corrected Kendall's W"
+  },
+  "planned_controls": [
+    "200-seed label-permutation W distribution",
+    "kappa-only and rho-only selectors",
+    "within-dataset Cliff's delta provenance and matched-pairs rank-biserial effect size",
+    "Propositions 1-3 finite-sample and Proposition 6 population identity verification",
+    "non-converse miscalibration counterexample"
+  ],
+  "supersedes": [
+    "2026-06-22_codex_local_unknown_duplicate_safe_harden_rerun",
+    "2026-07-18_claude_local_unknown_kappa_control"
+  ],
+  "completed_at": "2026-07-18T18:32:48+03:00",
+  "exit_code": 0,
+  "elapsed_seconds": 1018.33,
+  "verification": "all expected row counts and all three duplicate-group overlap checks PASS",
+  "note": "Accepted after candidate-score, tie, ordinal-reconciliation, 200-permutation, effect-size, and proposition checks. Superseded evidence remains immutable provenance."
+}

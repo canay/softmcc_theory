@@ -4,6 +4,11 @@ Operation ID: REV-20260622-0345-CODEX-26 / VER-20260622-0345-CODEX-26
 
 # Duplicate-Safe Evidence Remediation
 
+> Provenance notice (2026-07-18): this ordinal tie-breaking evidence has been
+> superseded for manuscript-facing Kendall's W values by
+> `TIEAWARE_EVIDENCE_REMEDIATION_20260718.md`. It remains unchanged below as a
+> record of the earlier remediation.
+
 ## Scope
 
 This run implements the approved Q1 audit actions A-001, A-002, A-003, A-004,
