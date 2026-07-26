@@ -1,0 +1,180 @@
+{
+  "operation_id": "REV-20260726-CODEX-ROUND-B-REMEDIATION",
+  "status": "verified_derived_analysis",
+  "frozen_arm18_inputs_modified": false,
+  "source_family_stability": {
+    "primary_18_settings": {
+      "aggregation_rule": "Mean Kendall W within each source family for each metric, followed by within-family midranks",
+      "n_settings": 18,
+      "n_source_families": 18,
+      "n_metrics": 7,
+      "friedman_chi2": 17.652347652347615,
+      "friedman_p": 0.0071623431748808345,
+      "nemenyi_cd_0_05": 2.1235227021783087,
+      "softmcc_mean_rank": 2.3055555555555554,
+      "separated_from_softmcc": [
+        "AUPRC",
+        "MCC@0.5"
+      ],
+      "mean_ranks": {
+        "SoftMCC": 2.3055555555555554,
+        "MCC@best": 3.9166666666666665,
+        "F1@best": 4.25,
+        "AUPRC": 4.527777777777778,
+        "AUROC": 4.027777777777778,
+        "Brier": 3.8333333333333335,
+        "MCC@0.5": 5.138888888888889
+      }
+    },
+    "documented_overlap_15_families": {
+      "aggregation_rule": "Mean Kendall W within each source family for each metric, followed by within-family midranks",
+      "n_settings": 18,
+      "n_source_families": 15,
+      "n_metrics": 7,
+      "friedman_chi2": 20.41437125748503,
+      "friedman_p": 0.002336053471746378,
+      "nemenyi_cd_0_05": 2.326202570714769,
+      "softmcc_mean_rank": 1.9666666666666666,
+      "separated_from_softmcc": [
+        "AUPRC",
+        "MCC@0.5"
+      ],
+      "mean_ranks": {
+        "SoftMCC": 1.9666666666666666,
+        "MCC@best": 3.966666666666667,
+        "F1@best": 4.233333333333333,
+        "AUPRC": 4.5,
+        "AUROC": 4.033333333333333,
+        "Brier": 3.933333333333333,
+        "MCC@0.5": 5.366666666666666
+      }
+    },
+    "conservative_source_collection_14_families": {
+      "aggregation_rule": "Mean Kendall W within each source family for each metric, followed by within-family midranks",
+      "n_settings": 18,
+      "n_source_families": 14,
+      "n_metrics": 7,
+      "friedman_chi2": 18.307692307692314,
+      "friedman_p": 0.005507548491535014,
+      "nemenyi_cd_0_05": 2.407848417155864,
+      "softmcc_mean_rank": 2.0357142857142856,
+      "separated_from_softmcc": [
+        "MCC@0.5"
+      ],
+      "mean_ranks": {
+        "SoftMCC": 2.0357142857142856,
+        "MCC@best": 4.071428571428571,
+        "F1@best": 4.285714285714286,
+        "AUPRC": 4.392857142857143,
+        "AUROC": 3.8214285714285716,
+        "Brier": 4.0,
+        "MCC@0.5": 5.392857142857143
+      }
+    }
+  },
+  "selection_inference": {
+    "family_definition": "Six prespecified SoftMCC versus baseline paired Wilcoxon tests",
+    "correction": "Holm familywise error control at alpha=0.05",
+    "holm_significant_baselines": [
+      "F1@best"
+    ],
+    "comparisons": [
+      {
+        "baseline": "MCC@best",
+        "mean_diff": -0.0045398825773281,
+        "bca_lo": -0.0097909714183689,
+        "bca_hi": 0.0011577892241606,
+        "wilcoxon_p": 0.0137902577165332,
+        "holm_adjusted_p": 0.068951288582666,
+        "raw_p_significant_0_05": true,
+        "holm_significant_0_05": false,
+        "matched_pairs_rank_biserial_all_blocks": -0.2693050193050193,
+        "total_pairs": 216,
+        "effective_nonzero_pairs": 111,
+        "zero_pairs": 105,
+        "positive_pairs": 45,
+        "negative_pairs": 66
+      },
+      {
+        "baseline": "F1@best",
+        "mean_diff": -0.005700760339266,
+        "bca_lo": -0.0112246048115415,
+        "bca_hi": -0.0003112666276823,
+        "wilcoxon_p": 0.0023150827036773,
+        "holm_adjusted_p": 0.0138904962220638,
+        "raw_p_significant_0_05": true,
+        "holm_significant_0_05": true,
+        "matched_pairs_rank_biserial_all_blocks": -0.3287566742944317,
+        "total_pairs": 216,
+        "effective_nonzero_pairs": 114,
+        "zero_pairs": 102,
+        "positive_pairs": 43,
+        "negative_pairs": 71
+      },
+      {
+        "baseline": "AUPRC",
+        "mean_diff": -0.0047088338055221,
+        "bca_lo": -0.0096644305464798,
+        "bca_hi": 0.0004658169138871,
+        "wilcoxon_p": 0.066923684965778,
+        "holm_adjusted_p": 0.200771054897334,
+        "raw_p_significant_0_05": false,
+        "holm_significant_0_05": false,
+        "matched_pairs_rank_biserial_all_blocks": -0.2069597069597069,
+        "total_pairs": 216,
+        "effective_nonzero_pairs": 104,
+        "zero_pairs": 112,
+        "positive_pairs": 51,
+        "negative_pairs": 53
+      },
+      {
+        "baseline": "AUROC",
+        "mean_diff": -0.0018104772074804,
+        "bca_lo": -0.0070916828604876,
+        "bca_hi": 0.0033675362408822,
+        "wilcoxon_p": 0.699913291547752,
+        "holm_adjusted_p": 0.699913291547752,
+        "raw_p_significant_0_05": false,
+        "holm_significant_0_05": false,
+        "matched_pairs_rank_biserial_all_blocks": -0.0421492921492921,
+        "total_pairs": 216,
+        "effective_nonzero_pairs": 111,
+        "zero_pairs": 105,
+        "positive_pairs": 61,
+        "negative_pairs": 50
+      },
+      {
+        "baseline": "Brier",
+        "mean_diff": -0.0031011351478515,
+        "bca_lo": -0.0063403494029041,
+        "bca_hi": -0.0001360873387359,
+        "wilcoxon_p": 0.0365553908497037,
+        "holm_adjusted_p": 0.1462215633988148,
+        "raw_p_significant_0_05": true,
+        "holm_significant_0_05": false,
+        "matched_pairs_rank_biserial_all_blocks": -0.3103825136612022,
+        "total_pairs": 216,
+        "effective_nonzero_pairs": 60,
+        "zero_pairs": 156,
+        "positive_pairs": 25,
+        "negative_pairs": 35
+      },
+      {
+        "baseline": "MCC@0.5",
+        "mean_diff": 0.005052622388816,
+        "bca_lo": -0.0015043665487417,
+        "bca_hi": 0.0126437573392836,
+        "wilcoxon_p": 0.3408857007152182,
+        "holm_adjusted_p": 0.6817714014304364,
+        "raw_p_significant_0_05": false,
+        "holm_significant_0_05": false,
+        "matched_pairs_rank_biserial_all_blocks": 0.1097029702970297,
+        "total_pairs": 216,
+        "effective_nonzero_pairs": 100,
+        "zero_pairs": 116,
+        "positive_pairs": 53,
+        "negative_pairs": 47
+      }
+    ]
+  }
+}

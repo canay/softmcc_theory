@@ -1,0 +1,18 @@
+{
+  "stability_summary": {
+    "relative_path": "evidence/harden_dupsafe_tieaware_summary_stability.csv",
+    "sha256": "5f6842c9d3615aa72a03fea8a8462987d1cd354a57c7b2091b8c2f895f8ef6b6"
+  },
+  "selection_summary": {
+    "relative_path": "evidence/harden_dupsafe_tieaware_summary_selection.csv",
+    "sha256": "e540fdcbeb73f6a1f80a5d675feeb71d84804e882e15535621a6985c56e49331"
+  },
+  "effect_sizes": {
+    "relative_path": "evidence/harden_dupsafe_tieaware_effect_sizes.csv",
+    "sha256": "99d4e9fd580cda27e42594b6037687867b995cc244c20c5c027ecfdac58c0d20"
+  },
+  "input_verification": {
+    "relative_path": "PACKAGE_MANIFEST.csv",
+    "scope": "The three packaged input rows are SHA-256 verified"
+  }
+}

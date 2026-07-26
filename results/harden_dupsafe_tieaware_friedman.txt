@@ -1,16 +1,16 @@
-[stability (tie-corrected Kendall's W)] Friedman chi2=6.645 p=0.355 (k=7, N=6); Nemenyi CD(0.05)=3.678
-    SoftMCC   mean rank 3.000
-    Brier     mean rank 3.167
-    F1@best   mean rank 3.417
-    MCC@best  mean rank 3.750
-    AUPRC     mean rank 4.333
-    MCC@0.5   mean rank 4.833
-    AUROC     mean rank 5.500
-[selection (mean test MCC)] Friedman chi2=5.927 p=0.4314 (k=7, N=6); Nemenyi CD(0.05)=3.678
-    MCC@best  mean rank 3.000
-    F1@best   mean rank 3.333
-    AUPRC     mean rank 3.417
-    SoftMCC   mean rank 3.667
-    Brier     mean rank 4.417
-    MCC@0.5   mean rank 4.833
-    AUROC     mean rank 5.333
+[stability (tie-corrected Kendall's W)] Friedman chi2=17.652 p=0.007162 (k=7, N=18); Nemenyi CD(0.05)=2.124
+    SoftMCC   mean rank 2.306
+    Brier     mean rank 3.833
+    MCC@best  mean rank 3.917
+    AUROC     mean rank 4.028
+    F1@best   mean rank 4.250
+    AUPRC     mean rank 4.528
+    MCC@0.5   mean rank 5.139
+[selection (mean test MCC)] Friedman chi2=10.189 p=0.1169 (k=7, N=18); Nemenyi CD(0.05)=2.124
+    F1@best   mean rank 2.889
+    MCC@best  mean rank 3.500
+    Brier     mean rank 3.889
+    AUPRC     mean rank 4.000
+    MCC@0.5   mean rank 4.306
+    AUROC     mean rank 4.611
+    SoftMCC   mean rank 4.806

@@ -1,0 +1,31 @@
+{
+  "verification_status": "PASS",
+  "verified_at": "2026-07-25T20:27:41.008289+03:00",
+  "run_id": "2026-07-24_claude_vps_marsilya_dataset_expansion",
+  "methodology_change_id": "MCL-20260724-dataset-expansion-01",
+  "planned_datasets": 18,
+  "repeats": 12,
+  "verified_units": 216,
+  "failed_units": 0,
+  "synced_remote_manifest_rows_verified": 715,
+  "recomputed_outcome": "A_SUPPORTED",
+  "friedman_chi2": 17.652347652347615,
+  "friedman_p": 0.0071623431748808345,
+  "nemenyi_cd": 2.1235227021783087,
+  "softmcc_mean_w": 0.6587962962962963,
+  "softmcc_stability_mean_rank": 2.3055555555555554,
+  "significant_nemenyi_pairs_vs_softmcc": [
+    "AUPRC",
+    "MCC@0.5"
+  ],
+  "utility_limitation_baselines": [
+    "MCC@best",
+    "F1@best",
+    "Brier"
+  ],
+  "permutation_exceedance_fraction": 0.004975124378109453,
+  "decision_summary_sha256": "66d446af703cbcf435e8bd9d8c90f87300557ff4b4463821fd6e33b50d2b8348",
+  "remote_artifact_manifest_sha256": "86ae117d42e1cdbf966292382ae2e3bde80aa43bc2574beef0e3172577ec8249",
+  "sync_bundle_sha256": "221ff6532abea748b9a777b717418a024303fd4accebd5145d5f910f759f7822",
+  "note": "The remote manifest predates the aggregate transcript's terminal line; directory-scoped synced artifacts were checked against it, while the post-aggregate logs and transfer bundle are covered by the local manifest."
+}
