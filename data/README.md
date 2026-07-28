@@ -24,8 +24,13 @@ The package includes dataset and split manifests in `results/`, not raw data.
   Ullah and Mahmoud, *A Scheme for Generating a Dataset for Anomalous Activity
   Detection in IoT Networks*, DOI
   <https://doi.org/10.1007/978-3-030-47358-7_52>.
-- Breast Cancer Wisconsin is provided by scikit-learn; synthetic datasets are
-  generated locally by `make_classification`.
+- Breast Cancer Wisconsin is loaded through
+  <https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html>.
+- The twelve expansion datasets come from the Zenodo collection at
+  <https://doi.org/10.5281/zenodo.61452> and are loaded through
+  <https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html>.
+- Synthetic datasets are generated locally with
+  <https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html>.
 
 Download the raw files from their canonical sources and review the current
 source terms before use. This repository distributes only code, manifests, and

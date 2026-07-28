@@ -66,15 +66,23 @@ framework around a probability-valued MCC core score.
 
 Raw data are not redistributed in this package.
 
-- The six original settings use Breast Cancer Wisconsin, two synthetic
-  prevalence settings, two Credit Card Fraud prevalence variants, and IoTID20.
-- Twelve additional settings are selected mechanically from the Zenodo
-  benchmark collection exposed by `imblearn.datasets.fetch_datasets`.
+- [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+  supplies the two controlled prevalence variants.
+- [IoTID20](https://sites.google.com/view/iot-network-intrusion-dataset/home)
+  supplies the network-intrusion setting.
+- [Breast Cancer Wisconsin](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
+  is loaded through scikit-learn.
+- Twelve additional settings come from the
+  [Zenodo imbalanced benchmark collection](https://doi.org/10.5281/zenodo.61452)
+  exposed by
+  [`imblearn.datasets.fetch_datasets`](https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html).
+- The two synthetic settings are generated locally with
+  [`sklearn.datasets.make_classification`](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html).
 - The exact 18-setting inventory, row counts, feature counts, positive counts,
   prevalence values, and source labels are in
   `results/harden_dupsafe_tieaware_dataset_manifest.csv`.
 
-Source links and sharing boundaries are recorded in `data/README.md`. Raw data
+Source terms and sharing boundaries are recorded in `data/README.md`. Raw data
 remain excluded; the manifests record cache hashes and split construction.
 
 ## Reproducing
