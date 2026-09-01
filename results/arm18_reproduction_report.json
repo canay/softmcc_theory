@@ -1,5 +1,5 @@
 {
-  "reference_dir": "/home/ubuntu/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion/reference_evidence",
+  "reference_dir": "<controlled-workspace>/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion/reference_evidence",
   "checked_at": "2026-07-25T20:18:50+03:00",
   "split_blocks_compared": 72,
   "split_index_hashes_exact": false,

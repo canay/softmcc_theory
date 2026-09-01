@@ -2,7 +2,7 @@
   "run_family": "expansion_dupsafe_tieaware",
   "methodology_change_id": "MCL-20260724-dataset-expansion-01",
   "created_at": "2026-07-25T20:18:50+03:00",
-  "command": "staging/03_experiments/scripts/expansion_aggregate.py --run-root /home/ubuntu/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion --reference-evidence /home/ubuntu/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion/reference_evidence --reproduction-mode report",
+  "command": "staging/03_experiments/scripts/expansion_aggregate.py --run-root <controlled-workspace>/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion --reference-evidence <controlled-workspace>/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion/reference_evidence --reproduction-mode report",
   "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
   "platform": "Linux-6.17.0-1018-oracle-aarch64-with-glibc2.39",
   "packages": {
@@ -14,6 +14,6 @@
     "imbalanced_learn": "0.14.2"
   },
   "protocol_inherited_from": "harden_dupsafe_tieaware 2026-07-18 canonical run",
-  "expansion_rule_manifest": "/home/ubuntu/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion/staging/02_data/expansion/expansion_rule_manifest.json",
+  "expansion_rule_manifest": "<controlled-workspace>/experiments/softmcc_theory/2026-07-24_claude_vps_marsilya_dataset_expansion/staging/02_data/expansion/expansion_rule_manifest.json",
   "expansion_rule_manifest_sha256": "6c45b57f4ea1eaa4322d1445a805364c539cd30ee7be59841b062c272c1dce14"
 }
